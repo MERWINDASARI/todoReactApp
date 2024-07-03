@@ -1,0 +1,27 @@
+.todoItem {
+  width: 500px;
+  color: #353935;
+  font-size: 20px;
+  margin: 0 auto;
+}
+.todoItemName {
+  font-weight: bold;
+  padding: 20px;
+}
+.todoSeparator {
+  border: 1px solid #ffdc9b;
+}
+.todoItemDelete {
+  float: right;
+  padding: 12px 20px;
+  border-radius: 6px;
+  border: none;
+  color: wheat;
+  background-color: #ff4401;
+  margin-top: -5px;
+  cursor: pointer;
+}
+
+.completed {
+  text-decoration: line-through;
+}
